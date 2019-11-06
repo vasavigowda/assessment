@@ -1,0 +1,68 @@
+.navbar{
+	display: flex;
+	padding: 31px 11px 31px 43px; 
+	 position: fixed;
+	 top: 0;
+}
+a{
+	text-decoration:none;
+	color:black;
+	 padding: 31px 11px 31px 43px; 
+}
+.home{
+	margin-top: 500px;
+}
+.signup{
+	padding-left: 562px;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.content {
+  position: absolute;
+  color: white;
+  padding-left: 125px;
+  text-align: center;
+  top: 0;
+}
+.button{
+  border: 1 solid;
+  border-radius: 30px;
+
+}
+/*page2css*/
+/*.about{
+  margin-top: 200px;
+}*/
+.container1{
+  position: relative;
+  font-family: Arial;
+  margin-left: 200px;
+}
+.text-block{
+  position: absolute;
+  bottom: 20px;
+  left: 115px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#more {display: none;}
+
+/*page3css property*/
+.flex1{
+	display: flex;
+  margin-left: 60px;
+  justify-content: space-between;
+}
+.flex2{
+	display: flex;
+  justify-content: space-between;
+   margin-left: 50px;
+   padding-left: 40px;
+    padding-right: 41px;
+}
