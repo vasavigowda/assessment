@@ -27,10 +27,15 @@ a{
   padding-left: 125px;
   text-align: center;
   top: 0;
+  padding-top: 70px;
+  font-size: 20px;
 }
 .button{
   border: 1 solid;
   border-radius: 30px;
+  background-color: #ed2453;
+  margin-left: 200px;
+  margin-top: 100px;
 }
 /*page2css*/
 .about{
@@ -104,7 +109,11 @@ a{
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
   grid-gap: 10px;
-  border: 1 solid blue;
+  border-style: solid black;
+  border-style:solid blue;
+}
+#demo{
+  border-style: solid black;
 }
 .signal{
   color: green;

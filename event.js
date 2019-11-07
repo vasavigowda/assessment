@@ -7,7 +7,6 @@ greet = 'Good Morning';
   greet = 'Good Afternoon';
 else if (hrs >= 17 && hrs <= 24)
 greet = 'Good Evening';
-// document.write(greet);
 document.getElementById("Greetings").innerHTML = greet;
 
 
