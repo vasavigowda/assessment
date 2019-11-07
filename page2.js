@@ -11,8 +11,8 @@ function carousel() {
  x[slideIndex-1].style.display = "block"; 
  setTimeout(carousel, 2000); 
 }
-function myFunction() {
-var dots = document.getElementById("dots");
+			function myFunction() {
+			var dots = document.getElementById("dots");
 			  var moreText = document.getElementById("more");
 			  var btnText = document.getElementById("myBtn");
 			  if (dots.style.display === "none") {
@@ -25,3 +25,5 @@ var dots = document.getElementById("dots");
 			    moreText.style.display = "inline";
 			  }
 				}
+
+				

@@ -4,6 +4,8 @@
 		<title>My website</title>
 		<link rel="stylesheet" type="text/css" href="page1.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 	</head>
 	<body>
 		<div class="navbar">
@@ -12,8 +14,8 @@
 			<div class="aboutus"><a href="#about">AboutUs</a></div>
 			<div class="Team"><a href="#team">Team</a></div>
 			<div class="Event"><a href="#event">Event</a></div>
-			<div class="signup"><a href="#">signup</a></div>
-			<div class="login"><a href="#">login</a></div>
+			<div class="signup"><a href="#signup">Signup</a></div>
+			<div class="login"><a href="#login">login</a></div>
 		</div>
 		<section id="home">
 			<div class="container">
@@ -24,7 +26,8 @@
 				<div class="button"> <a href="login.html"><button>Get Started</button></a></div>
 				</div>
 			</div>	
-		</section><br><br>
+		</section><br><br><br><br><br><br>
+
 		<section id="about">
 			<div class="container1">
 				<div class="mySlides"><img src="images/img3.jpeg" width="70%" height="300px"></div>
@@ -36,35 +39,96 @@
 					<button onclick="myFunction()" id="myBtn">Read more</button>
 				</div>
 			<script src="page2.js"></script>
-		</section>
+		</section><br><br><br>
 
 		<section id="team">
-			<div class="flex1">
-				<img src="images/img7.jpeg" height="200px" width="200px">
-				<img src="images/img8.jpeg" height="200px" width="200px">
-				<img src="images/img9.jpg" height="200px" width="200px">
-				<img src="images/img9.jpeg" height="200px" width="200px">
-
-			</div>
-			<div class="flex2">
+			<div class="grid1">
+				<!-- <div> --><img src="images/img7.jpeg" class="gridimage"> 
+				<!-- <ul>
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-google"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+				</ul></div> -->
+				<img src="images/img8.jpeg" class="gridimage">
+				<img src="images/img9.jpg" class="gridimage">
+				<img src="images/img9.jpeg" class="gridimage">
 				<p>Sundar Pichai</p>
 				<p>Mark Zuckerberg</p>
 				<p>Jan Kou</p>
 				<p>Bill Gates</p>
-			</div>
-			<div class="flex1">
-				<img src="images/img11.jpeg" height="200px" width="200px">
-				<img src="images/img12.jpeg" height="200px" width="200px">
-				<img src="images/img13.jpeg" height="200px" width="200px">
-				<img src="images/img14.jpeg" height="200px" width="200px">
-
-			</div>
-			<div class="flex2">
+				<img src="images/img11.jpeg" class="gridimage">
+				<img src="images/img12.jpeg" class="gridimage">
+				<img src="images/img13.jpeg" class="gridimage">
+				<img src="images/img14.jpeg" class="gridimage">
 				<p>Paul Buchheit</p>
 				<p>narayan murthy</p>
 				<p>Azim Premji</p>
 				<p>Satya Nadella</p>
 			</div>
+		</section><br>
+		<!-- event page -->
+		<section id="event">
+			<div class="gridcontainer">
+				<p id="Greetings"></p>
+				<p id="demo"></p>
+				<p>Temp<br>24F</p>
+				<p><i class="fa fa-wifi" style="color: green"></i></p>
+			</div>
+			<script type="text/javascript" src="event.js"></script>
+			<div>
+				<div class="event1">
+				<div id="parent">
+				<div id="child">
+				<img src="images/imag1.jpeg" class="eventimage">
+				<p class="paragraph">You can make use of an auditorium with 2,500 seats, a spacious foyer, 20 breakout rooms that can accommodate 50 to 350 persons and an expohall of 2,500 m. All this combined makes for more than 10,000 m² of opportunities and possibilities!</p>
+				</div></div>
+				<input type="button" value="delete" onClick="removeElement('parent','child');" class="dltbutton">
+				<script type="text/javascript" src="event.js"></script>
+				</div>
+				<div class="event1">
+				<img src="images/imag2.jpeg"  class="eventimage">
+				<p>You can make use of an auditorium with 2,500 seats, a spacious foyer, 20 breakout rooms that can accommodate 50 to 350 persons and an expohall of 2,500 m. All this combined makes for more than 10,000 m² of opportunities and possibilities</p>
+				</div>
+			<div class="event1">
+				<img src="images/imag3.jpeg" class="eventimage">
+				<p>You can make use of an auditorium with 2,500 seats, a spacious foyer, 20 breakout rooms that can accommodate 50 to 350 persons and an expohall of 2,500 m. All this combined makes for more than 10,000 m² of opportunities and possibilities
+				</p>
+			</div>
+			</div>
+		</section>
+		<section id="signup">
+		<div>
+		<form>
+			<label>First name</label>
+			<label>Second name</label><br>
+			<input type="text" name="firstname">
+			<input type="text" name="secondname"><br>
+			<label>Email</label>
+			<label>Phonenum</label><br>
+			<input type="Email" name="mail">
+			<input type="num" name="num"><br>
+			<label>Street Address1</label>
+			<label>Street Address2</label><br>
+			<input type="text" name="mail">
+			<input type="text" name="num"><br>
+			<label>City</label>
+			<label>State</label><br>
+			<input type="text" name="mail">
+			<input type="text" name="num"><br>
+			<label>City</label>
+			<label>State</label>
+			<label>Zipcode</label><br>
+			<input type="text" name="mail">
+			<input type="text" name="num">
+			<input type="text" name="num"><br>
+			<label>Create password</label>
+			<label>Verify password</label><br>
+			<input type="password" name="mail">
+			<input type="password" name="num"><br>
+		</form>
+		    <button>Get started</button>
+	</div>
 		</section>
 	</body>
 </html>
