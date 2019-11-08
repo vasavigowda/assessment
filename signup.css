@@ -1,0 +1,106 @@
+#signup{
+ margin-top: 500px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 100px;
+}
+.sign{
+
+  border-style: solid ;
+  background-color: grey;
+  width: 950px;
+margin-bottom: 100px;
+  margin-left: 100px;
+}
+#dropdown{
+    border-radius: 15px;
+    border:1px solid blue;
+    color: blue;
+    width: 100px;
+    padding: 5px;
+    margin-left: 50px;
+
+  }
+.reg{
+  text-align: center;
+}
+.submit1{
+  border: 1;
+  border-radius: 20px;
+  background-color: blue;
+  margin-left: 400px;
+  padding: 5px;
+}
+.signbtn{
+  border: 1;
+  border-radius: 20px;
+  background-color: blue;
+  margin-left: 450px;
+  padding: 5px;
+}
+.frstname{
+margin-left: 100px;
+}
+.scndname{
+margin-left: 360px
+}
+.frstbox{
+margin-left: 100px;
+}
+.scndbox{
+margin-left: 256px;
+}
+.mail1{
+margin-left: 100px;
+}
+.phnnum{
+margin-left: 389px;
+}
+.mailbox{
+margin-left: 100px;
+}
+.phnbox{
+margin-left: 258px;
+}
+.address1{
+margin-left: 100px;
+}
+.address2{
+margin-left: 324px;
+}
+.addrbox1{
+margin-left: 100px;
+}
+.addrbox2{
+margin-left:260px;
+}
+.city{
+margin-left: 100px;
+}
+.state{
+margin-left: 395px;
+}
+.zipcode{
+margin-left: 194px;
+}
+.citybox{
+margin-left: 100px;
+}
+.statebox{
+margin-left: 261px;
+}
+.zipbox{
+margin-left: 40px;
+}
+.password{
+margin-left: 100px;
+}
+.vrfy{
+margin-left: 300px;
+}
+.passbox{
+margin-left: 98px;
+}
+.vrfybox{
+margin-left: 261px;
+}s
