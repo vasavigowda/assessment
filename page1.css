@@ -113,6 +113,8 @@ h2{
   padding: 10px;
   margin-top: 700px;
     padding-top: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .eventimage{
   height: 100px;
